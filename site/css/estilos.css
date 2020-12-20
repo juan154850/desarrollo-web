@@ -1,32 +1,29 @@
-*{
-    padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-    }
-    nav{
-        background-color: black;
-        position:fixed;
-        padding: 20px;
-        width: 100%;
-        
-    }
-    nav ul{
-        list-style: none;
-        display: flex;
-        
-    }
-    .menu a{
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        background-color: black;
-        padding: 10px;
-        width: 200px;
-        text-align: center;
-        border-right: 1px solid grey;
-        
-    }
-    .menu a:hover{
-        background-color:grey;
-        border: 1px solid black;S
-    }
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+nav {
+  background-color: black;
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-right: 1px solid grey;
+}
+.menu a:hover {
+  background-color: grey;
+  border: 1px solid black;
+}
