@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    nav ul{
+        list-style: none;
+        display: flex;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        background-color: black;
+        padding: 10px;
+        width: 200px;
+        text-align: center;
+        border: 1px solid grey;
+    }
+    .menu a:hover{
+        background-color:grey;
+        border: 1px solid black;
+    }
+</style>
 </head>
 <body>
-    Hola mundo!
+    <header>
+        <nav>
+            <ul class="menu">
+                
+                <li><a href="#" title="inicio">Inicio</a></li>
+                <li><a href="#" title="productos">Productos</a></li>
+                <li><a href="http://facebook.com.co" target="_blank" title="Facebook">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
 </body>
 </html>
