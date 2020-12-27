@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+.navbar-icons {
+  display: flex;
+}
+.navbar-collapse {
+  justify-content: space-between;
+}
+.title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.nav-link.active {
+  background-color: rgba(102, 97, 97, 0.308);
+  border: 1px solid rgba(0, 0, 255, 0.349);
+  border-radius: 2%;
+}
+.nav-link:hover {
+  background-color: rgba(102, 97, 97, 0.308);
+  border: 1px solid rgba(0, 0, 255, 0.349);
+  border-radius: 2%;
+}
+@media (min-width: 1199px) {
+  #navbarNavAltMarkup {
+    margin: 50px;
+  }
+}
