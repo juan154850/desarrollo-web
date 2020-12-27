@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
     <title>Shop</title>
 </head>
 <body>
   <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
     <div class="container-fluid ">
-      <a class="navbar-brand " href="#">
+      <a class="navbar-brand " href="index.html">
         <img src="logos/logo.png" alt="" width="100" height="100" class="d-inline-block align-center">
         <h1 class="title">My company</h1>
       </a>
@@ -21,11 +24,37 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          <a class="nav-link" href="producto1.html">Producto 1</a>
-          <a class="nav-link" href="producto2.html">Producto 2</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Producto 1
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Hombre</a></li>
+              <li><a class="dropdown-item" href="#">Mujer</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Producto 2
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Tipo 1</a></li>
+              <li><a class="dropdown-item" href="#">Tipo 2</a></li>
+              <li><a class="dropdown-item" href="#">Tipo 3</a></li>
+            </ul>
+          </li>
           <a class="nav-link" href="producto3.html">Producto 3</a>
           <a class="nav-link" href="producto4.html">Producto 4</a>
-          <a class="nav-link" href="producto5.html">Producto 5</a>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Otros
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Tipo 1</a></li>
+              <li><a class="dropdown-item" href="#">Tipo 2</a></li>
+            </ul>
+          </li>
         </div>
         <div class="navbar-icons">
           <a class="nav-link" href="https://facebook.com/juandie01" target="_blank">
