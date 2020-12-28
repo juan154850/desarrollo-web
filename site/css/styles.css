@@ -12,41 +12,51 @@ body {
 .title {
   font-size: 1.3em;
   font-weight: bold;
-  font-family: "Langar", cursive;
+  font-family: "Yellowtail", cursive;
   text-shadow: 5px;
+  color: rgb(131, 125, 125);
 }
 .nav-link.active {
   background-color: rgba(245, 245, 245, 0.253) !important;
-  border: 1px solid rgba(76, 0, 255, 0.63) !important;
+  border: 2px solid #00ffff !important;
   border-radius: 2%;
   font-weight: bold;
-  color: blue !important;
+  color: rgb(131, 125, 125) !important;
   font-size: 1.5em;
 }
 .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.295) !important;
-  border: 1px solid rgba(49, 3, 255, 0.822) !important;
+  border: 2px solid #00ffff !important;
   border-radius: 2%;
   font-weight: bold;
   font-size: 1.6em;
-  color: blue !important;
+  color: rgb(131, 125, 125) !important;
 }
 .nav-link {
   font-size: 1.5em;
   font-family: "Teko", sans-serif;
+  color: rgb(131, 125, 125) !important;
 }
 .bg-dark {
-  background-color: rgba(51, 48, 48, 0.342) !important;
+  background-color: beige !important;
 }
 .dropdown-menu {
-  background-color: rgba(19, 23, 230, 0.527);
+  background-color: #ccffff;
 }
-
+.dropdown-item.active {
+  background-color: white !important;
+  color: rgb(131, 125, 125);
+  font-weight: bold;
+}
+.navbar-toggler {
+  background-color: rgba(131, 125, 125, 0.253);
+  border-color: grey !important;
+}
 @media (min-width: 1199px) {
   #navbarNavAltMarkup {
     margin: 50px;
   }
   .bg-dark {
-    background-color: rgba(43, 40, 42, 0.589) !important;
+    background-color: beige !important;
   }
 }
