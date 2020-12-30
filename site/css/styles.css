@@ -52,11 +52,77 @@ body {
   background-color: rgba(131, 125, 125, 0.253);
   border-color: grey !important;
 }
+.footer-space-bottom {
+  border-bottom: 1px solid grey;
+}
+footer ul {
+  list-style: none;
+}
+footer h3 {
+  text-align: center;
+  color: rgb(80, 75, 75);
+  font-family: cursive;
+  padding-bottom: 10px;
+}
+footer p.font-weigth-bold{
+  font-weight: bold;
+}
+footer p a{
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+.bi.bi-instagram {
+  height: 25px;
+  width: 25px;
+  color: grey;
+}
+.bi.bi-instagram:hover {
+  height: 30px;
+  width: 30px;
+}
+.bi.bi-facebook {
+  height: 25px;
+  width: 25px;
+  color: grey;
+}
+.bi.bi-facebook:hover {
+  height: 30px;
+  width: 30px;
+}
+
+.bi.bi-chat-dots {
+  height: 25px;
+  width: 25px;
+  color: grey;
+}
+.bi.bi-chat-dots:hover {
+  height: 30px;
+  width: 30px;
+}
 @media (min-width: 1199px) {
   #navbarNavAltMarkup {
     margin: 50px;
   }
   .bg-dark {
     background-color: beige !important;
+  }
+  .banner img {
+    height: 400px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-space-bottom {
+    border-right: 1px solid grey;
+    border-bottom: none;
+  }
+}
+@media (max-width: 281px) {
+  footer p {
+    font-size: 12px;
+  }
+  footer h3 {
+    font-size: 15px;
   }
 }
